@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, rgba(208,206,255,1) 0%, rgba(178,214,255,1) 48%, rgba(188,244,255,1) 100%);
+}
+
+.title{
+    text-align: center;
+    padding: 1em;
+    font-weight: 700;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle{
+    text-align: center;
+    font-weight: 500;
+}
+
+.password-section{
+    padding-top: 2em;
+}
+
+#power-line{
+    display: block;
+    height: 5px;
+    width: 0px;
+    background-color: red;
+    margin: auto;
+    transition: all 0.3s ease-in;
+    border-radius: 20px;
+
+}
+
+#power-line-outer{
+    display: block;
+    height: 5px;
+    width: 493px;
+    background-color: lightgray;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    border-radius: 20px;
+}
+
+#power-text{
+    color: gray;
+}
+
+.form-range1{
+    -webkit-appearance: none;  
+    height: 10px;
+    appearance: none;
+    width: 429px;
+    background: #ffff;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 17px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#range-value{
+    width: 65px;
+}
+
+#password_result{
+    font-weight: 500;
+    font-size: 22px;
+    width: 492px;
+}
+
+.buttons-wrapper{
+    padding-top: 20px;
+}
